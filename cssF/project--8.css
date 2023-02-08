@@ -1,0 +1,327 @@
+* {
+
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {}
+
+/* start upper bar */
+.upper-bar {
+
+	background-color: #08526d;
+	color: #ffffffFF;
+	padding: 10px;
+}
+
+.upper-bar .col-sm {
+
+	font-size: 0.8rem
+}
+
+.upper-bar .col-sm i:last-child {
+
+	margin-left: 20px;
+}
+
+/* end upper bar */
+
+/* start nav bar */
+
+.navbar-nav .nav-item .nav-link {
+	font-weight: 600
+}
+
+.navbar-nav .nav-item:not(:last-child) .nav-link {
+
+	margin-right: 20px;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+
+	color: #ec1c23 !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover color: #ec1c23
+}
+
+
+/* end	 nav bar */
+
+/* start slider */
+
+.slider .carousel-inner {
+
+	position: relative;
+}
+
+.slider .carousel-inner .overlay {
+
+	position: absolute;
+	width: 100%;
+	height: 900px;
+	z-index: 1;
+	color: #FFFFFF;
+}
+
+.slider .overlay h1 {
+
+	margin: 17% 0 0 5%;
+}
+
+.slider .overlay span {
+
+	background: #ed1d24;
+}
+
+/* end slider */
+
+/* start features */
+
+.features {
+
+	margin-top: 5%
+}
+
+.features .card {
+
+	border: none
+}
+
+.features .card i {
+
+	margin: auto;
+	color: white;
+	padding-top: 9%;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #ed1d24;
+	text-align: center;
+}
+
+/* end features */
+
+
+/* start overview */
+
+.overview {
+
+	background-color: #F0F5F7;
+	margin: 5% 0;
+	padding: 5.8% 0;
+	text-align: center;
+	letter-spacing: 1.8px;
+}
+
+.overview h1 {
+
+	color: #242833;
+	font-weight: bold;
+	margin-bottom: 30px;
+	letter-spacing: normal;
+
+}
+
+.overview h5 {
+
+	font-weight: 300;
+	word-spacing: 2.5;
+	margin-bottom: 40px;
+	letter-spacing: 3.2px;/ */
+}
+
+/* end overview */
+
+/* start features-work */
+
+.features-work {
+
+	text-align: center;
+}
+
+.features-work ul li {
+
+	border: 1px solid #08526d;
+	padding: 10px 1px;
+	color: #08526d;
+	margin-right: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.features-work ul li:nth-child(4) {
+	display: none
+}
+
+.features-work ul li.active {
+
+	color: white;
+	background: #ed1d24;
+	border: 1px #ed1d24 solid;
+}
+
+.features-work ul li:hover {
+
+	color: white;
+	background: #ed1d24;
+	border: 1px solid #ed1d24;
+}
+
+.features-work .row {
+
+	margin: 0;
+}
+
+
+.features-work .row .col-lg-3:hover .overlay {
+
+	opacity: 1;
+}
+
+
+.features-work .row .col-lg-3 .overlay {
+
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	position: absolute;
+	display: flex;
+	opacity: 0;
+	transition: all .6s ease;
+
+}
+
+.features-work .row .col-lg-3 .overlay div {
+
+	color: #ed1d24;
+	font-weight: bold;
+	width: 80%;
+	margin: auto;
+
+}
+
+.shuffle-img .col-lg-3 {
+
+	transition: all .6s ease;
+}
+
+.features-work .row .col-lg-3 .overlay div p {
+	color: white;
+}
+
+/* end features-work */
+
+
+/* start latest-post */
+
+.latest-post {
+
+	margin: 1% 0;
+	padding: 5.8% 0;
+	text-align: center;
+	letter-spacing: 1.8px;
+}
+
+.latest-posts h1 {
+
+	color: #242833;
+	font-weight: bold;
+	margin-bottom: 30px;
+	letter-spacing: normal;
+
+}
+
+/* end latest-post */
+
+
+/* start testmonials */
+
+.testmonials {
+
+	background-size: cover;
+	background-image: url(../img/testimonial.jpg);
+	height: 600px;
+	position: relative;
+
+}
+
+.testmonials .overlay {
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.7);
+	left: 0;
+	top: 0;
+}
+
+/* end testmonials */
+
+
+/* starting pricing table */
+
+.pricing-table .row div:nth-child(2) .card div:nth-child(2) h3 {
+
+	background-color: crimson;
+	color: white;
+	padding: 10px;
+}
+
+/* end pricing table */
+
+
+/* start choose us */
+
+
+.choose-us {
+
+	overflow-x: hidden;
+}
+
+.choose-us .row div:last-child {
+
+	background-color: #3268a2;
+	padding: 30px 0 0 30px;
+	color: white
+}
+
+/* end choose us */
+
+/* start stats */
+
+.stats i,
+.stats span {
+
+	color: #3268A2;
+}
+
+/* End stats */
+
+/* start copyright */
+
+.copyright ul li {
+
+	display: inline-block;
+	padding-right: 20px;
+	font-size: 20px;
+	color: #3268A2;
+	transition: 0.5s ease;
+	cursor: pointer;
+
+}
+
+.copyright ul li:hover {
+
+	color: #DC3545;
+
+}
+
+/* End copyright */
